@@ -11,6 +11,16 @@
 		AEA17F631E1CD7E500CB004F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEA17F611E1CD7E500CB004F /* Main.storyboard */; };
 		AEA17F651E1CD7E500CB004F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEA17F641E1CD7E500CB004F /* Assets.xcassets */; };
 		AEA17F681E1CD7E500CB004F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEA17F661E1CD7E500CB004F /* LaunchScreen.storyboard */; };
+		AEA17F781E1D27A600CB004F /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEA17F761E1D27A600CB004F /* Home.storyboard */; };
+		AEA17F7A1E1D27BE00CB004F /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEA17F791E1D27BE00CB004F /* Live.storyboard */; };
+		AEA17F7D1E1D27E500CB004F /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEA17F7B1E1D27E500CB004F /* Follow.storyboard */; };
+		AEA17F7F1E1D27F700CB004F /* User.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEA17F7E1E1D27F700CB004F /* User.storyboard */; };
+		AEA17F811E1D299100CB004F /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA17F801E1D299100CB004F /* MainTabBarController.swift */; };
+		AEA17F881E1D2CDA00CB004F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA17F871E1D2CDA00CB004F /* HomeViewController.swift */; };
+		AEA17F8B1E1D380600CB004F /* UIBarButtonItem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA17F8A1E1D380600CB004F /* UIBarButtonItem-Extension.swift */; };
+		AEA17F8E1E1E772700CB004F /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA17F8D1E1E772700CB004F /* PageTitleView.swift */; };
+		AEA17F901E1E78B000CB004F /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA17F8F1E1E78B000CB004F /* Common.swift */; };
+		AEA17F921E1F23C800CB004F /* PageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA17F911E1F23C800CB004F /* PageContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +30,16 @@
 		AEA17F641E1CD7E500CB004F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEA17F671E1CD7E500CB004F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEA17F691E1CD7E500CB004F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEA17F771E1D27A600CB004F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouYuLive/Base.lproj/Home.storyboard; sourceTree = SOURCE_ROOT; };
+		AEA17F791E1D27BE00CB004F /* Live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Live.storyboard; path = ../Main/Live.storyboard; sourceTree = "<group>"; };
+		AEA17F7C1E1D27E500CB004F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouYuLive/Base.lproj/Follow.storyboard; sourceTree = SOURCE_ROOT; };
+		AEA17F7E1E1D27F700CB004F /* User.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = User.storyboard; path = ../Main/User.storyboard; sourceTree = "<group>"; };
+		AEA17F801E1D299100CB004F /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		AEA17F871E1D2CDA00CB004F /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AEA17F8A1E1D380600CB004F /* UIBarButtonItem-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem-Extension.swift"; sourceTree = "<group>"; };
+		AEA17F8D1E1E772700CB004F /* PageTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
+		AEA17F8F1E1E78B000CB004F /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		AEA17F911E1F23C800CB004F /* PageContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +74,6 @@
 			children = (
 				AEA17F6F1E1D217500CB004F /* Classes */,
 				AEA17F5D1E1CD7E500CB004F /* AppDelegate.swift */,
-				AEA17F611E1CD7E500CB004F /* Main.storyboard */,
 				AEA17F641E1CD7E500CB004F /* Assets.xcassets */,
 				AEA17F661E1CD7E500CB004F /* LaunchScreen.storyboard */,
 				AEA17F691E1CD7E500CB004F /* Info.plist */,
@@ -78,6 +97,7 @@
 		AEA17F701E1D217500CB004F /* Follow */ = {
 			isa = PBXGroup;
 			children = (
+				AEA17F7B1E1D27E500CB004F /* Follow.storyboard */,
 			);
 			path = Follow;
 			sourceTree = "<group>";
@@ -85,6 +105,9 @@
 		AEA17F711E1D217500CB004F /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				AEA17F841E1D2C6800CB004F /* Controller */,
+				AEA17F851E1D2C6800CB004F /* Model */,
+				AEA17F861E1D2C6800CB004F /* View */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -92,6 +115,7 @@
 		AEA17F721E1D217500CB004F /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				AEA17F791E1D27BE00CB004F /* Live.storyboard */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -99,6 +123,9 @@
 		AEA17F731E1D217500CB004F /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				AEA17F8C1E1E770400CB004F /* View */,
+				AEA17F611E1CD7E500CB004F /* Main.storyboard */,
+				AEA17F801E1D299100CB004F /* MainTabBarController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -106,6 +133,7 @@
 		AEA17F741E1D217500CB004F /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				AEA17F7E1E1D27F700CB004F /* User.storyboard */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -113,8 +141,50 @@
 		AEA17F751E1D217500CB004F /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				AEA17F891E1D369900CB004F /* Extension */,
+				AEA17F8F1E1E78B000CB004F /* Common.swift */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		AEA17F841E1D2C6800CB004F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AEA17F761E1D27A600CB004F /* Home.storyboard */,
+				AEA17F871E1D2CDA00CB004F /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AEA17F851E1D2C6800CB004F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AEA17F861E1D2C6800CB004F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AEA17F891E1D369900CB004F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AEA17F8A1E1D380600CB004F /* UIBarButtonItem-Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		AEA17F8C1E1E770400CB004F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AEA17F8D1E1E772700CB004F /* PageTitleView.swift */,
+				AEA17F911E1F23C800CB004F /* PageContentView.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +249,10 @@
 				AEA17F681E1CD7E500CB004F /* LaunchScreen.storyboard in Resources */,
 				AEA17F651E1CD7E500CB004F /* Assets.xcassets in Resources */,
 				AEA17F631E1CD7E500CB004F /* Main.storyboard in Resources */,
+				AEA17F7A1E1D27BE00CB004F /* Live.storyboard in Resources */,
+				AEA17F781E1D27A600CB004F /* Home.storyboard in Resources */,
+				AEA17F7F1E1D27F700CB004F /* User.storyboard in Resources */,
+				AEA17F7D1E1D27E500CB004F /* Follow.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,7 +263,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEA17F811E1D299100CB004F /* MainTabBarController.swift in Sources */,
 				AEA17F5E1E1CD7E500CB004F /* AppDelegate.swift in Sources */,
+				AEA17F8E1E1E772700CB004F /* PageTitleView.swift in Sources */,
+				AEA17F921E1F23C800CB004F /* PageContentView.swift in Sources */,
+				AEA17F8B1E1D380600CB004F /* UIBarButtonItem-Extension.swift in Sources */,
+				AEA17F901E1E78B000CB004F /* Common.swift in Sources */,
+				AEA17F881E1D2CDA00CB004F /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +282,7 @@
 				AEA17F621E1CD7E500CB004F /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		AEA17F661E1CD7E500CB004F /* LaunchScreen.storyboard */ = {
@@ -210,6 +291,24 @@
 				AEA17F671E1CD7E500CB004F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AEA17F761E1D27A600CB004F /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEA17F771E1D27A600CB004F /* Base */,
+			);
+			name = Home.storyboard;
+			path = ../../Main;
+			sourceTree = "<group>";
+		};
+		AEA17F7B1E1D27E500CB004F /* Follow.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEA17F7C1E1D27E500CB004F /* Base */,
+			);
+			name = Follow.storyboard;
+			path = ../Main;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -312,12 +411,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = DouYuLive/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wujian.DouYuLive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -325,12 +426,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = DouYuLive/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wujian.DouYuLive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
