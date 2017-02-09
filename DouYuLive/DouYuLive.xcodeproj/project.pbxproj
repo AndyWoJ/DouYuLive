@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A9ED709597D4B54DCD014DA /* Pods_DouYuLive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA1441E7E7E82A8117CEE7F2 /* Pods_DouYuLive.framework */; };
+		AE1042991E4C2DFD00E7FCA4 /* RecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1042981E4C2DFD00E7FCA4 /* RecommendViewController.swift */; };
+		AE10429C1E4C3B7200E7FCA4 /* CollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE10429A1E4C3B7200E7FCA4 /* CollectionHeaderView.swift */; };
+		AE10429D1E4C3B7200E7FCA4 /* CollectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE10429B1E4C3B7200E7FCA4 /* CollectionHeaderView.xib */; };
+		AE1042A01E4C433700E7FCA4 /* CollectionNormalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE10429E1E4C433700E7FCA4 /* CollectionNormalCell.swift */; };
+		AE1042A11E4C433700E7FCA4 /* CollectionNormalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE10429F1E4C433700E7FCA4 /* CollectionNormalCell.xib */; };
+		AE1042A41E4C47EC00E7FCA4 /* CollectionPrettyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1042A21E4C47EC00E7FCA4 /* CollectionPrettyCell.swift */; };
+		AE1042A51E4C47EC00E7FCA4 /* CollectionPrettyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE1042A31E4C47EC00E7FCA4 /* CollectionPrettyCell.xib */; };
+		AE1042A71E4C532400E7FCA4 /* NetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1042A61E4C532400E7FCA4 /* NetworkTools.swift */; };
 		AEA17F5E1E1CD7E500CB004F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA17F5D1E1CD7E500CB004F /* AppDelegate.swift */; };
 		AEA17F631E1CD7E500CB004F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEA17F611E1CD7E500CB004F /* Main.storyboard */; };
 		AEA17F651E1CD7E500CB004F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEA17F641E1CD7E500CB004F /* Assets.xcassets */; };
@@ -21,9 +30,19 @@
 		AEA17F8E1E1E772700CB004F /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA17F8D1E1E772700CB004F /* PageTitleView.swift */; };
 		AEA17F901E1E78B000CB004F /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA17F8F1E1E78B000CB004F /* Common.swift */; };
 		AEA17F921E1F23C800CB004F /* PageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA17F911E1F23C800CB004F /* PageContentView.swift */; };
+		AEA17F941E23C02800CB004F /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA17F931E23C02800CB004F /* UIColor-Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		78ECB973009D2E418EDD4EF5 /* Pods-DouYuLive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouYuLive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DouYuLive/Pods-DouYuLive.debug.xcconfig"; sourceTree = "<group>"; };
+		AE1042981E4C2DFD00E7FCA4 /* RecommendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendViewController.swift; sourceTree = "<group>"; };
+		AE10429A1E4C3B7200E7FCA4 /* CollectionHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionHeaderView.swift; sourceTree = "<group>"; };
+		AE10429B1E4C3B7200E7FCA4 /* CollectionHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionHeaderView.xib; sourceTree = "<group>"; };
+		AE10429E1E4C433700E7FCA4 /* CollectionNormalCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionNormalCell.swift; sourceTree = "<group>"; };
+		AE10429F1E4C433700E7FCA4 /* CollectionNormalCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionNormalCell.xib; sourceTree = "<group>"; };
+		AE1042A21E4C47EC00E7FCA4 /* CollectionPrettyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionPrettyCell.swift; sourceTree = "<group>"; };
+		AE1042A31E4C47EC00E7FCA4 /* CollectionPrettyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionPrettyCell.xib; sourceTree = "<group>"; };
+		AE1042A61E4C532400E7FCA4 /* NetworkTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkTools.swift; sourceTree = "<group>"; };
 		AEA17F5A1E1CD7E500CB004F /* DouYuLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouYuLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEA17F5D1E1CD7E500CB004F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEA17F621E1CD7E500CB004F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,6 +59,9 @@
 		AEA17F8D1E1E772700CB004F /* PageTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
 		AEA17F8F1E1E78B000CB004F /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		AEA17F911E1F23C800CB004F /* PageContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageContentView.swift; sourceTree = "<group>"; };
+		AEA17F931E23C02800CB004F /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
+		DA1441E7E7E82A8117CEE7F2 /* Pods_DouYuLive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DouYuLive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD4DDAFEC97A6BF4F7055E3F /* Pods-DouYuLive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouYuLive.release.xcconfig"; path = "Pods/Target Support Files/Pods-DouYuLive/Pods-DouYuLive.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,17 +69,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A9ED709597D4B54DCD014DA /* Pods_DouYuLive.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E225B5BD137BC6783F480DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78ECB973009D2E418EDD4EF5 /* Pods-DouYuLive.debug.xcconfig */,
+				DD4DDAFEC97A6BF4F7055E3F /* Pods-DouYuLive.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3B001581434EB662D89BE768 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA1441E7E7E82A8117CEE7F2 /* Pods_DouYuLive.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AEA17F511E1CD7E500CB004F = {
 			isa = PBXGroup;
 			children = (
 				AEA17F5C1E1CD7E500CB004F /* DouYuLive */,
 				AEA17F5B1E1CD7E500CB004F /* Products */,
+				1E225B5BD137BC6783F480DE /* Pods */,
+				3B001581434EB662D89BE768 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,6 +185,7 @@
 			children = (
 				AEA17F891E1D369900CB004F /* Extension */,
 				AEA17F8F1E1E78B000CB004F /* Common.swift */,
+				AE1042A61E4C532400E7FCA4 /* NetworkTools.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -152,6 +195,7 @@
 			children = (
 				AEA17F761E1D27A600CB004F /* Home.storyboard */,
 				AEA17F871E1D2CDA00CB004F /* HomeViewController.swift */,
+				AE1042981E4C2DFD00E7FCA4 /* RecommendViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -166,6 +210,8 @@
 		AEA17F861E1D2C6800CB004F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				AE10429A1E4C3B7200E7FCA4 /* CollectionHeaderView.swift */,
+				AE10429B1E4C3B7200E7FCA4 /* CollectionHeaderView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -174,6 +220,7 @@
 			isa = PBXGroup;
 			children = (
 				AEA17F8A1E1D380600CB004F /* UIBarButtonItem-Extension.swift */,
+				AEA17F931E23C02800CB004F /* UIColor-Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -183,6 +230,10 @@
 			children = (
 				AEA17F8D1E1E772700CB004F /* PageTitleView.swift */,
 				AEA17F911E1F23C800CB004F /* PageContentView.swift */,
+				AE10429E1E4C433700E7FCA4 /* CollectionNormalCell.swift */,
+				AE10429F1E4C433700E7FCA4 /* CollectionNormalCell.xib */,
+				AE1042A21E4C47EC00E7FCA4 /* CollectionPrettyCell.swift */,
+				AE1042A31E4C47EC00E7FCA4 /* CollectionPrettyCell.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -194,9 +245,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AEA17F6C1E1CD7E500CB004F /* Build configuration list for PBXNativeTarget "DouYuLive" */;
 			buildPhases = (
+				E871A81C28844897C0CFBADD /* [CP] Check Pods Manifest.lock */,
 				AEA17F561E1CD7E500CB004F /* Sources */,
 				AEA17F571E1CD7E500CB004F /* Frameworks */,
 				AEA17F581E1CD7E500CB004F /* Resources */,
+				6B5A2AB3DDE25EDC4D23812F /* [CP] Embed Pods Frameworks */,
+				CDEA19048F197EDD60B01D3E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -219,6 +273,7 @@
 				TargetAttributes = {
 					AEA17F591E1CD7E500CB004F = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -247,10 +302,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEA17F681E1CD7E500CB004F /* LaunchScreen.storyboard in Resources */,
+				AE10429D1E4C3B7200E7FCA4 /* CollectionHeaderView.xib in Resources */,
 				AEA17F651E1CD7E500CB004F /* Assets.xcassets in Resources */,
 				AEA17F631E1CD7E500CB004F /* Main.storyboard in Resources */,
 				AEA17F7A1E1D27BE00CB004F /* Live.storyboard in Resources */,
+				AE1042A11E4C433700E7FCA4 /* CollectionNormalCell.xib in Resources */,
 				AEA17F781E1D27A600CB004F /* Home.storyboard in Resources */,
+				AE1042A51E4C47EC00E7FCA4 /* CollectionPrettyCell.xib in Resources */,
 				AEA17F7F1E1D27F700CB004F /* User.storyboard in Resources */,
 				AEA17F7D1E1D27E500CB004F /* Follow.storyboard in Resources */,
 			);
@@ -258,17 +316,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6B5A2AB3DDE25EDC4D23812F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DouYuLive/Pods-DouYuLive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDEA19048F197EDD60B01D3E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DouYuLive/Pods-DouYuLive-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E871A81C28844897C0CFBADD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AEA17F561E1CD7E500CB004F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AEA17F811E1D299100CB004F /* MainTabBarController.swift in Sources */,
+				AE10429C1E4C3B7200E7FCA4 /* CollectionHeaderView.swift in Sources */,
+				AEA17F941E23C02800CB004F /* UIColor-Extension.swift in Sources */,
+				AE1042991E4C2DFD00E7FCA4 /* RecommendViewController.swift in Sources */,
 				AEA17F5E1E1CD7E500CB004F /* AppDelegate.swift in Sources */,
+				AE1042A01E4C433700E7FCA4 /* CollectionNormalCell.swift in Sources */,
 				AEA17F8E1E1E772700CB004F /* PageTitleView.swift in Sources */,
 				AEA17F921E1F23C800CB004F /* PageContentView.swift in Sources */,
 				AEA17F8B1E1D380600CB004F /* UIBarButtonItem-Extension.swift in Sources */,
+				AE1042A41E4C47EC00E7FCA4 /* CollectionPrettyCell.swift in Sources */,
 				AEA17F901E1E78B000CB004F /* Common.swift in Sources */,
+				AE1042A71E4C532400E7FCA4 /* NetworkTools.swift in Sources */,
 				AEA17F881E1D2CDA00CB004F /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +521,7 @@
 		};
 		AEA17F6D1E1CD7E500CB004F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78ECB973009D2E418EDD4EF5 /* Pods-DouYuLive.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -424,6 +537,7 @@
 		};
 		AEA17F6E1E1CD7E500CB004F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD4DDAFEC97A6BF4F7055E3F /* Pods-DouYuLive.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -456,6 +570,7 @@
 				AEA17F6E1E1CD7E500CB004F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

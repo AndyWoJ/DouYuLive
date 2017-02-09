@@ -8,21 +8,38 @@
 
 import UIKit
 
-private let titleHeight = 40.0
+private let kTitleViewH = 40.0
 
 class HomeViewController: UIViewController {
 
-    lazy var pageTitleView : PageTitleView = {
-        let titleViewFrame = CGRect(x: 0.0, y: kStatusBarH + kNavigationBarH, width: kScreenW, height: titleHeight)
+    //MARK: 懒加载pageTitleView
+    lazy var pageTitleView : PageTitleView = {[weak self] in
+        let titleViewFrame = CGRect(x: 0.0, y: kStatusBarH + kNavigationBarH, width: kScreenW, height: kTitleViewH)
         let titles = ["推荐","游戏","娱乐","趣玩"]
         let titleView = PageTitleView(frame: titleViewFrame, titles: titles)
+        titleView.delegate = self
         return titleView
     }()
-    lazy var pageContentView :PageContentView = {
+    
+    lazy var pageContentView :PageContentView = {[weak self] in
         
-        let contentFrame = CGRect(x: 0, y: <#T##CGFloat#>, width: <#T##CGFloat#>, height: <#T##CGFloat#>)
+        let contentY = kStatusBarH + kNavigationBarH + kTitleViewH
+        let contentH = kScreenH - contentY - kTabBarH
+        let contentFrame = CGRect(x: 0, y: contentY, width: kScreenW, height: contentH)
         
-        let contentView = PageContentView(frame: contentFrame, childVCs: <#T##[UIViewController]#>, parentVC: <#T##UIViewController#>)
+        // all child viewControllers
+        var childViewControlls = [UIViewController]()
+        childViewControlls.append(RecommendViewController())
+        for _ in 0..<3{
+            let vc = UIViewController()
+            vc.view.backgroundColor = UIColor(R: CGFloat(arc4random_uniform(255)), G: CGFloat(arc4random_uniform(255)), B: CGFloat(arc4random_uniform(255)))
+            childViewControlls.append(vc)
+        }
+       
+        
+        let contentView = PageContentView(frame: contentFrame, childVCs: childViewControlls, parentVC: self)
+        contentView.delegate = self
+        return contentView
     }()
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -47,8 +64,12 @@ extension HomeViewController{
         
         //2,添加titleView 
         view.addSubview(pageTitleView)
+        
+        //3,添加pageContentView
+        view.addSubview(pageContentView)
+        
     }
-    private func setupNavigationBar(){
+    fileprivate func setupNavigationBar(){
         let leftButton = UIButton()
         leftButton.setImage(UIImage(named:"logo"), for: .normal)
         leftButton.sizeToFit()
@@ -74,4 +95,15 @@ extension HomeViewController{
      */
     
 }
-
+//MARK : 遵守PageTitleViewDelegate
+extension HomeViewController : PageTitleViewDelegate{
+    func pageTitleView(_ titleView: PageTitleView, selectedIndex index: Int) {
+        pageContentView.setCurrentIndex(currentIndex: index)
+    }
+}
+//MARK : 遵守PageContentViewDelegate
+extension HomeViewController : PageContentViewDelegate{
+    func pageContentView(_ contentView: PageContentView, progress: CGFloat, sourceIndex: Int, targetIndex: Int) {
+        pageTitleView.setTitleViewWithProgress(progress: progress, sourceIndex: sourceIndex, targetIndex: targetIndex)
+    }
+}

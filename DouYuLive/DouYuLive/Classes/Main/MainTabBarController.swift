@@ -12,14 +12,14 @@ class MainTabBarController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        addOneChildViewControl(storyBoardName: "Home")
-        addOneChildViewControl(storyBoardName: "Live")
-        addOneChildViewControl(storyBoardName: "Follow")
-        addOneChildViewControl(storyBoardName: "User")
+        addOneChildViewControl("Home")
+        addOneChildViewControl("Live")
+        addOneChildViewControl("Follow")
+        addOneChildViewControl("User")
     }
     
     // add child View Controller
-    private func addOneChildViewControl(storyBoardName: String){
+    fileprivate func addOneChildViewControl(_ storyBoardName: String){
         let childViewController = UIStoryboard(name: storyBoardName, bundle: nil).instantiateInitialViewController()!
         
         addChildViewController(childViewController)
